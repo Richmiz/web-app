@@ -31,9 +31,9 @@ A modern cryptocurrency dashboard built with Next.js that allows users to track,
 1. Clone the repository:
    ```bash
    git clone https://github.com/Richmiz/web-app.git
-   cd blockhouse
    
 2. Install dependencies:
+   ```bash
    npm install
    # or
    yarn install
@@ -42,7 +42,8 @@ A modern cryptocurrency dashboard built with Next.js that allows users to track,
    # or
    bun install
    
-3. Run the development server:
+4. Run the development server:
+   ```bash
    npm run dev
    # or
    yarn dev
@@ -51,8 +52,8 @@ A modern cryptocurrency dashboard built with Next.js that allows users to track,
    # or
    bun dev
 
-4. Open http://localhost:3000 with your browser to see the application.
+6. Open http://localhost:3000 with your browser to see the application.
 
 
-Overview
+### Overview
 ![image](https://github.com/user-attachments/assets/24b1ef04-2526-4d9b-98db-5e872fc0af64)
