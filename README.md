@@ -30,5 +30,51 @@ A modern cryptocurrency dashboard built with Next.js that allows users to track,
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Richmiz/web-app.git
    cd blockhouse
+   
+2. Install dependencies:
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   
+3. Run the development server:
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+
+4. Open http://localhost:3000 with your browser to see the application.
+
+
+Project Structure
+   blockhouse/
+   ├── app/                # Next.js App Router
+   │   ├── favicon.ico
+   │   ├── globals.css
+   │   ├── layout.tsx      # Root layout
+   │   └── page.tsx        # Home page
+   ├── components/         # React components
+   │   ├── CryptoDetailModal.jsx
+   │   ├── CryptoTable.jsx
+   │   ├── LoadingSpinner.jsx
+   │   ├── RefreshButton.jsx
+   │   └── SearchBar.jsx
+   ├── hooks/              # Custom React hooks
+   │   └── useCryptoData.jsx
+   ├── services/           # API services
+   │   └── api.js
+   └── public/             # Static assets
+
+
+Deployment
+The easiest way to deploy this application is to use the Vercel Platform from the creators of Next.js.
+
+Check out the Next.js deployment documentation for more details.
